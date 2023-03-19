@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vinos y cervezas artesanales</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      nav ul {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      nav a:hover {
+        color: #f2f2f2;
+      }
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+      section {
+        margin-bottom: 40px;
+      }
+      h1, h2, h3 {
+        text-align: center;
+      }
+      article {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+      label {
+        font-weight: bold;
+        font-size: 16px;
+      }
+      input[type="number"] {
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      button[type="submit"] {
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button[type="submit"]:hover {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Vinos y cervezas artesanales</h1>
+      <nav>
+        <ul>
+          <li><a href="#vinos">Vinos de frutas</a></li>
+          <li><a href="#cervezas">Cervezas rubias artesanales</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="vinos">
+        <h2>Vinos de frutas</h2>
+        <article>
+          <h3>Vino de fresa</h3>
+          <p>Descripción del vino de fresa y su sabor</p>
+          <p>Precio: $XX</p>
+          <form>
+            <label>Cantidad:</label>
+            <input type="number" name="cantidad" value="1" min="1         max="10">
+        <button type="submit">Agregar al carrito</button>
+      </form>
+    </article>
+    <article>
+      <h3>Vino de arándanos</h3>
+      <p>Descripción del vino de arándanos y su sabor</p>
+      <p>Precio: $XX</p>
+      <form>
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad" value="1" min="1"
+        max="10">
+        <button type="submit">Agregar al carrito</button>
+      </form>
+    </article>
+  </section>
+  <section id="cervezas">
+    <h2>Cervezas rubias artesanales</h2>
+    <article>
+      <h3>Cerveza rubia artesanal 1</h3>
+      <p>Descripción de la cerveza rubia artesanal 1 y su sabor</p>
+      <p>Precio: $XX</p>
+      <form>
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad" value="1" min="1"
+        max="10">
+        <button type="submit">Agregar al carrito</button>
+      </form>
+    </article>
+    <article>
+      <h3>Cerveza rubia artesanal 2</h3>
+      <p>Descripción de la cerveza rubia artesanal 2 y su sabor</p>
+      <p>Precio: $XX</p>
+      <form>
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad" value="1" min="1" max="10">
+        <button type="submit">Agregar al carrito</button>
+      </form>
+    </article>
+  </section>
+</main>
+<footer>
+  <p>Derechos reservados Vinos y cervezas artesanales &copy; 2023</p>
+</footer>
+ </body>
+</html>
+
